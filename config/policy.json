@@ -1,0 +1,17 @@
+{
+  "schemaVersion": "1.0",
+  "project": "Azure-OpenAI-Regional-Failover-Gateway",
+  "rank": 20,
+  "action": "plan_azure_openai_regional_failover_gateway",
+  "allowedCredentialModes": [
+    "managed_identity",
+    "workload_identity"
+  ],
+  "protectedTargets": [
+    "production",
+    "break-glass"
+  ],
+  "allowedTenantIds": [
+    "tenant-a"
+  ]
+}
